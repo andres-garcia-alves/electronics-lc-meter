@@ -26,6 +26,8 @@
 #define LCD_ROW_1           1
 #define MEASURE_LEN         7
 
+#define DEBUG               false
+
 // capacimeter mode: 1 = Low (pF), 2 = Med (nF), 3 = High (uF)
 enum CapacimeterMode { None, Low, Med, High };
 

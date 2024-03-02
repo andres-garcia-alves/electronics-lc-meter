@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 1.0,
+          "height": 3.2,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,12 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|125000000|131540000|47c913c2-50a7-4f35-98b4-d766c7c193da|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|90170000|101600000|fa76cd54-d347-4411-accb-98d34ed3e8ca|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|91440000|68580000|820ff339-ba0f-4cc0-94dd-b0368b00d849|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|91440000|88900000|730204fe-6350-44c1-842c-fe03716649e2|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -86,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -195,9 +190,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|1028700|952500|a3722fe0-facc-42fa-a01b-a26433c9d7fe|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -412,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LC-Meter-v3.kicad_pro",
+    "filename": "LC-Meter-v2.kicad_pro",
     "version": 1
   },
   "net_settings": {

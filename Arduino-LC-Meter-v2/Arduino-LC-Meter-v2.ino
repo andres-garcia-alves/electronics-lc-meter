@@ -8,7 +8,10 @@ void setup()
   defaultPinout(true);
   setCapacimeterMode(Med);
   showIntro(2000);
+
+  #ifdef DEBUG
   Serial.begin(9600);
+  #endif
 }
 
 void loop()
@@ -59,6 +62,11 @@ void showCapacitance()
   String unit = (capacitance < 1000) ? " nF" : " uF";
 
   printLCD(0, LCD_ROW_0, "Cap.: " + (String)value + unit);
+
+  #ifdef DEBUG
+  Serial.println("Cap.: " + (String)value + unit);
+  delay(500);
+  #endif
 }
 
 void showInductance()
@@ -69,4 +77,9 @@ void showInductance()
   dtostrf(inductance, MEASURE_LEN, 1, value);
 
   printLCD(0, LCD_ROW_1, "Ind.: " + (String)value + " uH");
+
+  #ifdef DEBUG
+  Serial.println("Ind.: " + (String)value + " uH");
+  delay(500);
+  #endif
 }

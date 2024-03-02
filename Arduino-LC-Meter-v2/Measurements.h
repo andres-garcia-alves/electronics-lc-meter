@@ -46,17 +46,17 @@ float getCapacitance()
   while (analogRead(PIN_CAPACITOR_MEASURE) < 645) { }
   unsigned long elapsedTime = micros() - startTime;
 
-  float Cx = ((float)elapsedTime / params.chargeResistanceValue) * 1000.0;   // ToDo: si es necesario el multiplicar x 1000
+  float Cx = ((float)elapsedTime / params.chargeResistanceValue) * 1000.0;
   Cx -= params.parasiticCapacitance;
   digitalWrite(params.chargeCapacitorPin, LOW);
 
   // discharging phase
   pinMode(PIN_CAPACITOR_DISCHARGE, OUTPUT);
   digitalWrite(PIN_CAPACITOR_DISCHARGE, LOW);
-  while (analogRead(PIN_CAPACITOR_MEASURE) > 10) { }  // ToDo: revisar, x margen de error (no descarga hasta cero) !!
+  while (analogRead(PIN_CAPACITOR_MEASURE) > 10) { }
 
   // clean-up phase
-  pinMode(params.chargeCapacitorPin, INPUT);                 // ToDo: revisar, tal vez innecesario
+  pinMode(params.chargeCapacitorPin, INPUT);  // ToDo: revisar, tal vez innecesario
   pinMode(PIN_CAPACITOR_DISCHARGE, INPUT);
 
   return Cx;
@@ -68,7 +68,7 @@ float getInductance()
   digitalWrite(PIN_INDUCTANCE_OUT, HIGH);
 
   delay(1);
-  pinMode(PIN_INDUCTANCE_OUT, INPUT);                 // ToDo: revisar, tal vez innecesario
+  pinMode(PIN_INDUCTANCE_OUT, INPUT);         // ToDo: revisar, tal vez innecesario
   digitalWrite(PIN_INDUCTANCE_OUT, LOW);
   
   unsigned long t = pulseIn(PIN_INDUCTANCE_IN, LOW);
