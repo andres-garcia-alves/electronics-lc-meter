@@ -63,7 +63,8 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 
 ### Version History
 
-v1.0 (2024.02.02) - Initial release.  
+v1.0 (2024.03.02) - Initial release.  
+v1.1 (2024.03.03) - Adding case 3D model.
 
 &nbsp;
 
