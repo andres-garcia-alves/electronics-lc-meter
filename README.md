@@ -1,11 +1,11 @@
 # LC Meter v2.0
 
 A Capacimeter + Inductometer based on Arduino Nano.  
-Capacitor measurement with 3 working modes: accuracy (slow), balanced and speed.
+Capacitor measurement with 3 working modes: accuracy (slow), balanced and speed.  
+
+Case 3D model included ;-)
 
 This proyect was inspired on video [Medidor de Bobinas/Inductores y Capacitores con Arduino y Display LCD](https://www.youtube.com/watch?v=hMa-AWyuxaA) (spanish) from [Electgpl](https://www.youtube.com/@electgpl) YouTube channel.
-
-Coming soon: Case 3D model  :-)
 
 &nbsp;
 
