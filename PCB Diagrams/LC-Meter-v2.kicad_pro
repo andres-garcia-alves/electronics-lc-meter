@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 3.2,
-          "width": 1.8
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -190,7 +190,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1016000|838200|a3722fe0-facc-42fa-a01b-a26433c9d7fe|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },

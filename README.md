@@ -57,6 +57,10 @@ This project use the following electronic components:
 |-------------------------------------------------|-------------------------------------------------|
 | ![](Resources/13-case-3d-model.jpg)             | ![](Resources/14-project-final.jpg)             |
 
+| Capacimeter (YouTube video)                     | Inductometer (YouTube video)                    |
+|-------------------------------------------------|-------------------------------------------------|
+| [![](Resources/15-capacimeter-test.jpg)](https://youtu.be/5dKCbQqo9p4) | [![](Resources/17-inductometer-test.jpg)](https://youtu.be/Jn29TbQ0DK8) |
+
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
 &nbsp;
@@ -64,7 +68,8 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 ### Version History
 
 v1.0 (2024.03.02) - Initial release.  
-v1.1 (2024.03.03) - Adding case 3D model.
+v1.1 (2024.03.03) - Adding case 3D model.  
+v1.2 (2024.03.09) - Pin position & component annotations improvements.
 
 &nbsp;
 
