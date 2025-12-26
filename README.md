@@ -70,7 +70,8 @@ See 'Rescources' sub-folder for more pictures & videos of the project.
 v1.0 (2024.03.02) - Initial release.  
 v1.1 (2024.03.03) - Adding case 3D model.  
 v1.2 (2024.03.09) - Pin position & component annotations improvements.  
-v1.3 (2025.12.20) - Update project structure.
+v1.3 (2025.12.20) - Update project structure.  
+v1.4 (2025.12.26) - Adding 'Stickers' folder.  
 
 &nbsp;
 
